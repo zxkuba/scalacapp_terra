@@ -15,7 +15,7 @@
     -terraform plan  
     -terraform apply  
 
-4. Terraform code in this project have a kubernetes.tf file which is a k8s deployment :
+4. Terraform code in this project have a kubernetes.tf file which is a k8s deployment :  
     -use container image: https://hub.docker.com/repository/docker/zxkuba/scalacapp, based on: https://github.com/zxkuba/scalacapp  
     -create a service "scalacapp-servive, runing on 8080 port  
 
