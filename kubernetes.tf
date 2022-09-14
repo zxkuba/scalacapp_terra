@@ -20,8 +20,8 @@ resource "kubernetes_deployment" "java" {
       }
       spec {
         container {
-          image = "378612673110.dkr.ecr.eu-central-1.amazonaws.com/java-demo:latest"
-          name  = "java-microservice-container"
+          image = "zxkuba/scalacapp:v1"
+          name  = "scalacapp"
           port {
             container_port = 8080
           }
