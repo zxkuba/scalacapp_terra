@@ -1,3 +1,3 @@
-#ScalacApp - Application and EKS cluster
+# ScalacApp - Application and EKS cluster
 
 
